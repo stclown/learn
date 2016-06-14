@@ -1,0 +1,70 @@
+.color(@name, @color) {
+
+	.color-@{name} {
+		color: @color !important;
+	}
+
+	.border-color-@{name} {
+		border-color: @color !important;
+	}
+
+	.border-top-color-@{name} {
+		border-top-color: @color !important;
+	}
+
+	.border-right-color-@{name} {
+		border-right-color: @color !important;
+	}
+
+	.border-bottom-color-@{name} {
+		border-bottom-color: @color !important;
+	}
+
+	.border-left-color-@{name} {
+		border-left-color: @color !important;
+	}
+
+	.color-@{name}.badge {
+		color: #fff !important;
+		background: @color !important;
+		border-radius: 3px;
+		padding: 2px 0;
+	}
+
+	i.color-@{name}.badge:before {
+		width: 22px;
+		text-align: center;
+	}
+
+	.bg-color-@{name} {
+		background: @color !important;
+	}
+
+}
+
+.color(~'default', @color-default);
+.color(~'red', @color-red);
+.color(~'light-red', @color-light-red);
+.color(~'dark', @color-dark);
+.color(~'light', @color-light);
+.color(~'blue', @color-blue);
+.color(~'light-blue', #55AADE);
+.color(~'alice-blue', @color-alice-blue);
+.color(~'green', @color-green);
+.color(~'orange', @color-orange);
+.color(~'gray', @color-gray);
+.color(~'light-gray', @color-light-gray);
+.color(~'dark-gray', @color-dark-gray);
+.color(~'purple', @color-purple);
+.color(~'navy-blue', #193264);
+.color(~'teal', #008080);
+.color(~'olive', #808000);
+.color(~'slate-gray', #708090);
+.color(~'brown', #775330);
+.color(~'dark-magenta', #870087);
+.color(~'ruby', #e0115f);
+.color(~'sea-green', #2e8b57);
+.color(~'blue-green', #0d98ba);
+.color(~'cobalt-blue', #0047ab);
+.color(~'bottle-green', #006a4e);
+.color(~'blue-whale', @color-blue-whale);
