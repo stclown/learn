@@ -1,0 +1,4 @@
+@ECHO OFF
+SET BIN_TARGET=%~dp0/console
+SET SYMFONY_ENV=prod
+php "%BIN_TARGET%" %*

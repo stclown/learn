@@ -22,6 +22,8 @@ node_modules/
 /var/bootstrap.php.cache
 /bin/*
 !bin/console
+!bin/console.bat
+!bin/console_prod.bat
 !bin/symfony_requirements
 /vendor/
 
